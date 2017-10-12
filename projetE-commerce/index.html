@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Lien taille carousel responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Logo onglet-->
+        <link rel="icon" type="image/jpg" href="assets/images/logo.jpg" />
+        <link rel="stylesheet" href="assets/librairie/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/librairie/bootstrap.min.js">
+        <link href="assets/css/totos.css" rel="stylesheet" type="text/css"/>
+        <!--Police d'écriture-->
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Sketch|Clicker+Script" rel="stylesheet">
+        <!--Carousel + jquery + bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--Lien article.json-->
+        <script src="articles.json"></script>
+        <!--Lien script.js-->
+        <script src="script.js"></script>
+        <!--Lien feuille de style css-->
+        <link rel="stylesheet" href="style.css">
+        <!--Icones-->
+        <script src="https://use.fontawesome.com/01849597be.js"></script>
+        <title>So Bio'tiful</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="logo_cercle col-lg-3 col-xs-12">
+                        <h1 id="titre">So bio'tiful</h1>
+                    </div>
+                    <div class="logo_1 col-lg-9 hidden-xs hidden-sm hidden-md" style="margin:0px; padding:0px;"></div>
+                </div>
+            </div>
+        </header>
+        <!--MENU-->
+        <div class="container-fluid">
+            <div class="row" >
+                <div class="col-lg-1 col-xs-1 block_menu" style="margin:0px; padding:0px;">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="index.html">Acceuil<i class="fa fa-leaf"></i></a></li>
+                            <li><a href="#" class="">Inscriptions<i class="fa fa-leaf"></i></a></li>
+                            <li><a href="#" class="">Connexions<i class="fa fa-leaf"></i></a></li>
+                            <li class="dropdown col-lg-1 col-lg-offset-4 col-xs-offset-0 col-xs-5 toto">
+                                <a data-toggle="dropdown" class="dropdown-toggle" id="myTabDrop1" href="index.html">Catégories <span class="caret"></span><i class="fa fa-leaf"></i></a>
+                                <ul aria-labelledby="myTabDrop1" role="menu" class="dropdown-menu dropdown-menu-primary">
+                                    <li><a data-toggle="modal" data-target="#articles_soins_visage" href="#">Soins du visage</a></li>
+                                    <li><a data-toggle="modal" data-target="#articles_soins_corps" href="#">Soins du corps</a></li>
+                                    <li><a data-toggle="modal" data-target="#articles_herboristerie" href="#">Herboristerie</a></li>
+                                    <p role="separator" id="divider"></p>
+                                    <li><a data-toggle="modal" data-target="#articles_change_bebe" href="#">Change bébés</a></li>
+                                    <li><a data-toggle="modal" data-target="#articles_soins_bebe" href="#">Soins bébés</a></li>
+                                    <li><a data-toggle="modal" data-target="#articles_accessoire_bebe" href="#">Accessoires bébés</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--/MENU-->
+        <!--MODAL SOINS VISAGE-->
+        <div class="container">
+            <div class="row">
+                <div class="soinVisage">
+                    <a href="#" data-toggle="modal" data-target="#articles_soins_visage"></a>
+                    <div id="articles_soins_visage" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Soins du visage</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL SOINS VISAGE-->
+        <!--MODAL SOINS CORPS-->
+        <div class="container">
+            <div class="row">
+                <div class="soinCorps">
+                    <a href="#" data-toggle="modal" data-target="#articles_soins_corps"></a>
+                    <div id="articles_soins_corps" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Soins du corps</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                    <div class="article5">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL SOINS CORPS-->
+        <!--MODAL HERBORISTERIE-->
+        <div class="container">
+            <div class="row">
+                <div class="herboristerie">
+                    <a href="#" data-toggle="modal" data-target="#articles_herboristerie"></a>
+                    <div id="articles_herboristerie" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">herboristerie</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL HERBORISTERIE-->
+        <!--MODAL SOINS BEBE-->
+        <div class="container">
+            <div class="row">
+                <div class="soinsBebe">
+                    <a href="#" data-toggle="modal" data-target="#articles_soins_bebe"></a>
+                    <div id="articles_soins_bebe" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Soins bébé</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL SOINS BEBE-->
+        <!--MODAL CHANGE BEBE-->
+        <div class="container">
+            <div class="row">
+                <div class="changeBebe">
+                    <a href="#" data-toggle="modal" data-target="#articles_change_bebe"></a>
+                    <div id="articles_change_bebe" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Change bébé</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                    <div class="article5">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL CHANGE BEBE-->
+        <!--MODAL ACCESSOIRE BEBE-->
+        <div class="container">
+            <div class="row">
+                <div class="accessoireBebe">
+                    <a href="#" data-toggle="modal" data-target="#articles_accessoire_bebe"></a>
+                    <div id="articles_accessoire_bebe" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Accessoires bébé</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="article1">
+
+                                    </div>
+                                    <div class="article2">
+
+                                    </div>
+                                    <div class="article3">
+
+                                    </div>
+                                    <div class="article4">
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/MODAL ACCESSOIRE BEBE-->
+        <!--PANIER-->
+        <div class="container">
+            <div class="row">
+                <div class="panier col-xs-offset-8 col-xs-2 col-sm-offset-8 col-sm-2 col-md-offset-10 col-md-2">
+                    <a href="#" data-toggle="modal" data-target="#panier"><img src="img/panier.png" alt="panier" title="panier"></a>
+                    <div id="panier" class="modal fade" role="dialog">
+                        <div class="modal-dialog .modal-sm .modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Panier</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <section  class="container">
+                                        <article class="well form-inline pull-left col-lg-5">
+                                            <legend>Gestion du panier</legend>
+                                            <label class="col-lg-3">Identifiant</label> : <input type = "number" id = "id" style="width:120px" class="input-sm form-control"></input><br><br>
+                                            <label class="col-lg-3" >Quantité</label> : <input type = "number" id = "qte" style="width:120px" class="input-sm form-control"></input><br><br>
+                                            <label class="col-lg-3">Prix</label> : <input type = "number" id = "prix" style="width:120px" class="input-sm form-control"></input><br><br>
+                                            <button class="btn btn-primary" type="submit" onclick="ajouter()"><span class="glyphicon glyphicon-shopping-cart"></span> Ajouter au panier</button>
+                                        </article>
+                                    </section>
+                                    <section class="container">
+                                        <article class="well form-inline pull-left col-lg-5">
+                                            <legend>Contenu du panier</legend>
+                                            <table id="tableau" class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Code</th>
+                                                        <th>Qte</th>
+                                                        <th>Prix unitaire</th>
+                                                        <th>Prix de la ligne</th>
+                                                        <th>Supprimer</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                            <br><label>Prix du panier total</label> : <label id = "prixTotal"></label>
+                                            <label id = "nbreLignes" hidden>0</label>
+                                        </article>
+                                    </section>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Acheter</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/PANIER-->
+        <!--CAROUSEL-->
+        <div class="row" >
+            <div class="container">
+                <div class="carousel col-xs-12" style="margin:0px; padding:0px;">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicateurs -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Images du carousel -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="photoo" src="assets/images/accessoire/brosse_dent.jpg" alt="photo" style="width:50%; max-height:400px; min-height: 200px;">
+                            </div>
+                            <div class="item">
+                                <img class="photoo" src="assets/images/accessoire/ciseaux_ongles.jpg" alt="photo" style="width:50%; max-height:400px; min-height: 200px;">
+                            </div>
+                            <div class="item">
+                                <img class="photoo" src="assets/images/accessoire/eponge.jpg" alt="photo" style="width:50%; max-height:400px; min-height: 200px;">
+                            </div>
+                            <div class="item">
+                                <img class="photoo" src="assets/images/accessoire/mouche_bebe.jpg" alt="photo" style="width:50%; max-height:400px; min-height: 200px;">
+                            </div>
+                            <!-- Contrôle flèche gauche/droite -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Précédent</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Suivant </span>
+                            </a>
+                        </div>
+                    </div><!--FIN CAROUSEL-->
+                </div><!--/.row-->
+            </div>
+        </div>
+        <!--/CAROUSEL-->
+
+        <!--MODAL CONTACT-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" >
+                        <div id="contact" class="modal fade" role="dialog">
+                            <div class="modal-dialog .modal-sm .modal-lg">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Contact</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="user_info" method="POST" action="assets/formulaire.json" >
+                                            <input type="text" id="nom" name="nom" value="" placeholder="Nom">
+                                            <input type="text" id="prenom" name="prenom" value="" placeholder="Prenom"><br>
+                                            <input type="email" id="email" name="email" value="" placeholder="E-mail"><br>
+                                            <input type="text" id="num_adresse" name="num_adresse" value="" placeholder="Numero de la rue">
+                                            <input type="text" id="code_postal" name="Code Postal" value="" placeholder="Code Postal"><br>
+                                            <textarea name="name" id="adresse" rows="4"  placeholder="Adresse"></textarea><br>
+                                            <button type="submit" id="envoie" name="button"> Valider</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--/MODAL CONTACT-->
+        <!--FOOTER-->
+        <footer >
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foot">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bar_foot foot_content ">
+                            <h3>Service et Garanties</h3>
+                            <ul>
+                                <li><a href="#">Garanties et assurances</a></li>
+                                <li><a href="#">Mon service Client</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bar_foot foot_content">
+                            <h3>Livraison et paiement</h3>
+                            <ul>
+                                <li><a href="#">Les modes et frais de livraison</a></li>
+                                <li><a href="#">Les moyens de paiement</a></li>
+                                <li><a href="#">Paiement sécurisé</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bar_foot foot_content">
+                            <h3>Contactez-nous</h3>
+                            <ul>
+                                <li><a href="#" data-toggle="modal" data-target="#contact" >Contact Service Client</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 foot_content ">
+                            <h3>Infos Légales</h3>
+                            <ul>
+                                <li><a href="#">Condition générales de vente</a></li>
+                                <li><a href="#">Mentions légales</a></li>
+                                <li><a href="#">Offres de remboursement</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER -->
+    </body>
+</html>

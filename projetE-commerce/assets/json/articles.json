@@ -1,0 +1,178 @@
+{
+  "id":[
+    "soinsDuVisage",
+    "soinsDuCorps",
+    "herboristerie",
+    "soins",
+    "change",
+    "accessoires"
+  ],
+  "soinsDuVisage":[
+    {"nom":"masqueArgileRose",
+      "descriptif":"Le Masque à l’Argile Rose Cattier permet aux peaux sensibles et réactives de profiter d’un soin douceur purifiant, pour un effet « bonne mine » garanti. Enrichi en beurre de karité bio, reconnu pour ses vertus réparatrices, anti-desséchantes et protectrices, en menthe poivrée bio, aux propriétés rafraîchissantes, antiseptiques et stimulantes et en aloe vera, hydratante et apaisante, il adoucit et nourrit l’épiderme, oxygène et clarifie la peau.Grâce à la richesse en micronutriments de l’argile, il apporte les minéraux et oligo-éléments nécessaires à la santé et à l’éclat de la peau.",
+      "image":"img/soinVisage/masqueArgileRose.jpg",
+      "prix":14.7,
+      "quantite":0
+    },
+    {"nom":"cremeVisageAloeVera",
+      "descriptif":"Cette crème visage revitalisante est une version très enrichie en matières nobles qui permettent la refonte complète de votre peau agressée par les conditions difficiles de notre vie moderne.",
+      "image":"img/soinVisage/cremeVisageAloeVera.jpg",
+      "prix":16,
+      "quantite":0
+    },
+    {"nom":"gommagePeauxSensible",
+      "descriptif":"L’alliance de l’Eau de Gamarde Les Bains, de l’huile d’Argan Biologique réparatrice et de grains végétaux ultra-fins permet un gommage efficace et respectueux pour tous les types de peau. D’une rare douceur, ce soin préserve l’épiderme, protège son film hydrolipidique et stimule l’activité cellulaire. Votre teint est visiblement éclairci et lumineux!",
+      "image":"img/soinVisage/gommagePeauxSensible.jpg",
+      "prix":13.5,
+      "quantite":0
+    },
+    {"nom":"cremeLaitDanesse",
+      "descriptif":"Une crème de jour au Lait d´ânesse (équivalent 10% frais) combinant les propriétés exceptionnelles du lait d´ânesse à celles de l´Huile de graine de jojoba, de graine de sésame, d´amande douce, de Noyaux d´abricot, du beurre de karité et de l´aloé vera.",
+      "image":"img/soinVisage/cremeLaitDanesse.jpg",
+      "prix":12.6,
+      "quantite":0
+    }
+  ],
+  "soinsDuCorps":[
+    {"nom":"jambesLourdes",
+      "descriptif":"Gel à effet froid pour soulager les jambes fatiguées.",
+      "image":"img/soinCorps/jambesLourdes.jpg",
+      "prix":12.5,
+      "quantite":0
+    },
+    {  "nom":"baumeCouDecolte",
+      "descriptif":"Baume anti-âge pour la zone fragile du cou et du décolleté",
+      "image":"img/soinCorps/baumeCouDecolte.jpg",
+      "prix":18.8,
+      "quantite":0
+    },
+    {  "nom":"cremeLavante",
+      "descriptif":"Soins à l'eau thermale d'Uriage aux propriétés apaisantes, adoucissantes et hydratentes.",
+      "image":"img/soinCorps/cremeLavante.jpg",
+      "prix":11.2,
+      "quantite":0
+    },
+    {"nom":"celullite",
+      "descriptif":"Coffret minceur composé de 2 huiles sèches minceur et d'une ventouse anti-cellulite.",
+      "image":"img/soinCorps/celullite.jpg",
+      "prix":13.5,
+      "quantite":0
+    },
+    {"nom":"vergeture",
+      "descriptif":"Le soin anti-vergeture , soin cosmétique innovant, naturel et certifié, biologique, destiné, à, la prévention et aux soins des vergetures.  offre une double action à, la fois préventive et curative.",
+      "image":"img/soinCorps/vergeture.jpg",
+      "prix":15.2,
+      "quantite":0
+    }
+  ],
+  "herboristerie":[
+    {"nom":"theKiloSupperflu",
+      "descriptif":"infusions spécifiquement dédiée à votre minceur. En associant des plantes aux bienfaits minceur et des arômes gourmands, vous gardez une jolie silhouette tout en vous faisant plaisir !",
+      "image":"img/herboriste/theKgSuperflu.jpg",
+      "prix":3.5,
+      "quantite":0
+    },
+    {"nom":"theEnergiePositive",
+      "descriptif":"Infusions au maté vert revigorant et au guarana stimulant",
+      "image":"img/herboriste/theEnergiePositive.jpg",
+      "prix":2.7,
+      "quantite":0
+    },
+    {"nom":"infusionDigestion",
+      "descriptif":"Infusion biologique à base de Fenouil, Coriandre, Réglisse, Camomille et Verveine.  ",
+      "image":"img/herboriste/infusionDigestion.jpg",
+      "prix":2.5,
+      "quantite":0
+    },
+    {"nom":"confortArticulaire",
+      "descriptif":"Infusion au cassis, ortie, frêne, romarin et reine des pré",
+      "image":"img/herboriste/confortArticulaire.jpg",
+      "prix":3.2,
+      "quantite":0
+    }
+  ],
+  "soins":[
+    {"nom":"champ",
+      "descriptif":"Avec le Duo Hygiène Quotidienne Tout en Douceur Teane, prenez soin de la peau délicate de bébé. Le Gel Nettoyant Bébé Corps et Cheveux Téane est formulé spécifiquement pour la peau très sèche et sensible de votre bébé, ce gel doux lavant sans savon lave le corps et les cheveux sans dessécher. La glycérine nourrit et adoucit la peau. Les extraits de mauve bio et de lotus apaisent et soulagent les sensations de tiraillements. L'Eau Micellaire Téane nettoie le visage et le corps de bébé tout en respectant sa peau fragile. Formulée spécifiquement pour les peaux sensibles, elle n’assèche pas la peau et laisse une odeur délicate et fraîche. Contenance de l'eau micellaire : Flacon de 400 ml. Contenance du gel nettoyant : Flacon de 250 ml.",
+      "image":"img/bebe/soins/shampoing.png",
+      "prix":8.6,
+      "quantite":0
+    },
+    {"nom":"soin1",
+      "descriptif":"La Crème pour le Change Weleda prévient efficacement l'apparition des rougeurs et régénère l'épiderme déjà fragilisé de votre bébé. Cette crème pour le change est aux extraits de Calendula et de Camomille de qualité biologique qui calment les rougeurs grâce à leurs vertus apaisantes. Un mélange d'huile d'amande douce et d'huile de sésame, de qualité biologique, favorise la régénération de l'épiderme. La cire d'abeille renforce cette action en formant un léger film protecteur non occlusif et l'oxyde de zinc, aux propriétés isolantes et absorbantes, assure une couvrance optimale. La Crème Lavante Corps et Cheveux Weleda, sans savon, au pH physiologique, est spécialement conçue pour la toilette quotidienne des bébés et des jeunes enfants. Elle nettoie en douceur les cheveux délicats et la peau fragile de bébé, grâce à une base lavante végétale douce, sans agents nettoyants irritants, qui ne pique pas les yeux. Enrichie en huiles d’amande douce et de sésame de qualité biologique, elle prévient le dessèchement cutané. Elle contient également un extrait de fleur de calendula de qualité biologique, qui calme et apaise. Ces substances naturelles soigneusement sélectionnées laissent la peau souple et douce et facilitent le démêlage des cheveux. Le Lait de Corporel Bébé Weleda a été formulé pour la toilette quotidienne de votre bébé. Il nettoie en douceur tout en respectant l'équilibre délicat de l'épiderme. A base d'extrait de Calendula de qualité biologique qui calme et apaise. De l'Huile de Jojoba et du Beurre de Karité préviennent le dessèchement cutané et préservent la douceur de la peau. Contenance : 1 tube de crème lavante de 200 ml, 1 tube de lait de toilette de 200 ml, 1 tube de crème pour le change de 75 ml. ",
+      "image":"img/bebe/soins/soin1.png",
+      "prix":9.2,
+      "quantite":0
+    },
+    {"nom":"soin2",
+      "descriptif":"l nettoie .Il adoucit .Il nourrit et protège Pour en optimiser tous les bienfaits, l'huile d'olive utilisée est de haute qualité et issue de l'agriculture biologique pour une formule 100% naturelle et hypoallergénique. Hypoallargénique - Testé sous contrôle pédiatrique - Sans conservateur - Sans parfum - Non testé sur animaux. Flacon à bouchon clapet de 400 ml Bouteille à flacon pompe de 1L. ",
+      "image":"img/bebe/soins/soins2.png",
+      "prix":9.2,
+      "quantite":0
+    },
+    {"nom":"talc",
+      "descriptif":"Le Talc en Poudre pour Bébé Anaé est 100% naturel, sans parfum ni adjuvant. Il est particulièrement indiqué pour l'hygiène et les soins quotidiens du bébé et de l'adulte.",
+      "image":"img/bebe/soins/talc.png",
+      "prix":7.5,
+      "quantite":0
+    }
+  ],
+  "change":[
+    {"nom":"carreCoton",
+      "descriptif":"Sa face gauffrée avec des impressions en forme d'hippopotames permet un nettoyage en profondeur et en douceur. A utiliser imprégné de liniment, de lait de toilette, d'eau micéllaire ... Le sachet, qui présente une ouverture facile, est entièrement élaboré à base d’amidon de mais, recyclable, biodégradable et compostable.",
+      "image":"img/bebe/change/carreCoton.jpg",
+      "prix":7,
+      "quantite":0
+    },
+    {"nom":"couche",
+      "descriptif":"La cellulose est certifiée FSC c'est-à-dire qu'elle est issue de forêts gérées durablement. L'enveloppe externe à base d'amidon végétal certifié sans OGM. L'emballage est 100% naturel, biodégradable et compostable et imprimé avec de l'encre végétale. ",
+      "image":"img/bebe/change/couche.jpg",
+      "prix":6.3,
+      "quantite":0
+    },
+    {"nom":"couche4",
+      "descriptif":"La cellulose est certifiée FSC c'est-à-dire qu'elle est issue de forêts gérées durablement. L'enveloppe externe à base d'amidon végétal certifié sans OGM. L'emballage est 100% naturel, biodégradable et compostable et imprimé avec de l'encre végétale. ",
+      "image":"img/bebe/change/couche8.jpg",
+      "prix":12.6,
+      "quantite":0
+    },
+    {"nom":"couche8",
+      "descriptif":"La cellulose est certifiée FSC c'est-à-dire qu'elle est issue de forêts gérées durablement. L'enveloppe externe à base d'amidon végétal certifié sans OGM. L'emballage est 100% naturel, biodégradable et compostable et imprimé avec de l'encre végétale. ",
+      "image":"img/bebe/change/couche8.jpg",
+      "prix":25,
+      "quantite":0
+    },
+    {"nom":"lingette",
+      "descriptif":"Les Lingettes Bébé Coton Bio Babyléna respectent la peau de bébé et la nature. Hypoallergéniques, à l'eau florale d'hamamélis, miel et propolis pour nettoyer en douceur et apaiser la peau de bébé. 100% coton biologique et biodégradable pour préserver l'environnement. Ne pas utiliser sur les yeux de bébé.Hypoallergénique - Testé sous contrôle dermatologique et pédiatrique - Sans parabènes, sans phtalates, sans phenoxyéthanol - Parfum d'origine naturelle sans allergènes - Non testé sur animaux ",
+      "image":"img/bebe/change/lingette.jpg",
+      "prix":5.2,
+      "quantite":0
+    }
+  ],
+  "accessoires":[
+    {"nom":"brosseDents",
+      "descriptif":"1 brosse de massage à picots arrondis : massage efficace des gencives. 1 brosse à picots coniques : brossage des 1ères dents tout en douceur. 1 anneau de sécurité, qui sert également de support de rangement. ",
+      "image":"img/bebe/accessoire/brosseDents.jpg",
+      "prix":15,
+      "quantite":0
+    },
+    {"nom":"ciseauxOngles",
+      "descriptif":" Les lames sont fines et les extrémités arrondies, totalement adaptées aux ongles fins de bébé. Longueur ciseaux : environ 9.5 cm ",
+      "image":"img/bebe/accessoire/ciseauxOngles.jpg",
+      "prix":9,
+      "quantite":0
+    },
+    {"nom":"eponge",
+      "descriptif":"Hypoallergéniques et testées dermatologiquement, elles sont élaborées à partir de fibres végétales et de coton. Dans la bain, leur texture très agréable permet un massage en douceur de la peau de Bébé.Contenance : Lot de 2 éponges.",
+      "image":"img/bebe/accessoire/eponge.jpg",
+      "prix":6,
+      "quantite":0
+    },
+    {"nom":"moucheBebe",
+      "descriptif":"par Aspiration Nuk possède un filtre à air en mousse et une double cavité de protection.  l permet de soulager efficacement le nez pris de bébé tout en offrant une double garantie d’hygiène à ses parents.",
+      "image":"img/bebe/accessoire/moucheBebe.jpg",
+      "prix":12,
+      "quantite":0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "biotiful",
+  "version": "1.0.0",
+  "description": "produit bio",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-css": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriscilliaL/projetE-commerce.git"
+  },
+  "keywords": [
+    "produits",
+    "bio"
+  ],
+  "author": "guihome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriscilliaL/projetE-commerce/issues"
+  },
+  "homepage": "https://github.com/PriscilliaL/projetE-commerce#readme"
+}

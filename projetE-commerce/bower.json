@@ -1,0 +1,26 @@
+{
+  "name": "projetE-commerce",
+  "homepage": "https://github.com/PriscilliaL/projetE-commerce",
+  "authors": [
+    "guillaume-L <guillaume.lebot@free.fr>"
+  ],
+  "description": "projet ecommerce",
+  "main": "index.html",
+  "keywords": [
+    "produits",
+    "bio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.2.0",
+    "bootstrap": "^3.3.7"
+  }
+}
